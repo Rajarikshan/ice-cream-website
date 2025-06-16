@@ -220,7 +220,10 @@
 @media screen and (min-width:375px)and 
 (max-width:425px){
      .hotel111{
-        padding-left: 80px;
+        padding-left: 55px;
+     }
+     .hotel11 {
+            padding-bottom: 30px;
      }
     
 }

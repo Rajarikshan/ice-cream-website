@@ -37,10 +37,10 @@ useEffect(()=>{
         {(screenWidth>425||isOpen)&&(
             <div className='toggleBox'>
             <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/About">About</Link></li>
-            <li><Link to="/Menu">Menu</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/" onClick={()=>setIsOpen(false)}>Home</Link></li>
+            <li><Link to="/About" onClick={()=>setIsOpen(false)} >About</Link></li>
+            <li><Link to="/Menu" onClick={()=>setIsOpen(false)}>Menu</Link></li>
+            <li><Link to="/Contact" onClick={()=>setIsOpen(false)}>Contact</Link></li>
         </ul>
         </div>
 )}

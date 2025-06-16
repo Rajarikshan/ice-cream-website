@@ -69,16 +69,17 @@ bottom:  330px;
  
 @media screen and (max-width:425px){
     .menu{
-        height: 50vh;
+        height: auto;
     }
     .bottomMenu{
         padding: 10px;
+        width: auto;
+        height: auto;
+        object-fit: cover;
     }
     .topMenu .search-icon-svg,
     .topMenu img{
         top: 78px;
-
-  
 }
    
 } 
@@ -90,6 +91,7 @@ bottom:  330px;
      .topMenu img{
         top: 78px;
     }
+
     
     
 } 
@@ -268,7 +270,7 @@ bottom:  330px;
         width: auto;
     }
      .compo-offers11 img{
-        height: 60px;
+        height: 70px;
      }
      .compo-offers1 p{
         font-size: 13px;
@@ -281,17 +283,20 @@ bottom:  330px;
      .combobottom button{
         font-size: 12px;
         width: 80%;
-        padding: 5px 7px;
+        padding: 3px 3px;
+        margin-bottom: 20px;
      }
      .scroll-btn-left{
         left: 50px;
-        bottom: -110px;
+        bottom: -170px;
      }
      .scroll-btn-right{
-        bottom: -110px;
+        bottom: -170px;
         right: 40px;
      }
 }
+
+
 
 /* combo offers end  */
 
@@ -476,6 +481,10 @@ align-items: center;
       .dessert{
         height: auto;
         padding-top: 30px;
+    }
+    .dessert11{
+        height: 300px;
+
     }
     
 }

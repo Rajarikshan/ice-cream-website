@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/ice-cream-website">
     <Navbar/>
     <Routes>
       <Route path="/" element={<Index/>}/>

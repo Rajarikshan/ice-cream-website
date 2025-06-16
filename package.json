@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://rajarikshan.github.io/ice-cream-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "vite build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
